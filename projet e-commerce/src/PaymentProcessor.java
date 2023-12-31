@@ -4,7 +4,7 @@ public class PaymentProcessor {
         // Basic validation (in a real-world scenario, use a payment gateway)
         if (isValidCreditCardNumber(cardNumber)) {
             System.out.println("Processing credit card payment...");
-            System.out.println("Amount: $" + amount);
+            System.out.println("Amount: " + amount+" DT");
             // Perform payment processing logic here
             return true; // Simulating a successful payment
         } else {
