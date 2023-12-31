@@ -58,7 +58,7 @@ The system follows a modular architecture with classes encapsulating their funct
 - The integration with the `ShoppingCart` class leverages polymorphism, allowing different products to contribute to the overall shipping cost.
 
 ## Usage 
-1. **Clone the Repository:**
+1. **Clone the Repository**
 
 2. **Run Main2.java in src folder**
 
