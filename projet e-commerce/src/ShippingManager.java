@@ -41,7 +41,7 @@ public class ShippingManager {
         cart.displayCart();
         double shippingCost = calculateShippingCost(shippingMethod, cart);
         double total=shippingCost+cart.calculateTotalCartPrice();
-        System.out.println("Shipping Cost: $" + shippingCost);
-        System.out.println("Total Cost: $" +total);
+        System.out.println("Shipping Cost: " + shippingCost+" DT");
+        System.out.println("Total Cost: " +total+" DT");
     }
 }
