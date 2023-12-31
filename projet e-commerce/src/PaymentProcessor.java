@@ -18,7 +18,7 @@ public class PaymentProcessor {
         // Basic validation (in a real-world scenario, use PayPal API)
         if (isValidEmail(email)) {
             System.out.println("Processing PayPal payment...");
-            System.out.println("Amount: $" + amount);
+            System.out.println("Amount: " + amount+" DT");
             // Perform PayPal payment processing logic here
             return true; // Simulating a successful payment
         } else {
